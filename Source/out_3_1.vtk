@@ -1,0 +1,15 @@
+# vtk DataFile Version 3.0
+vtk output
+ASCII
+DATASET POLYDATA
+POINTS 8 float
+0 0 0 0 1 0 1 1 0 
+1 0 0 1 0 1 1 1 1 
+0 1 1 0 0 1 
+LINES 1 9
+8 0 1 2 3 4 5 6 7 
+
+POINT_DATA 8
+SCALARS scalars unsigned_int
+LOOKUP_TABLE default
+1 1 1 1 1 1 1 1 
